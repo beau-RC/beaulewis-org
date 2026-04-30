@@ -3,6 +3,18 @@ import Reveal from "@/components/Reveal";
 import ProjectAccordion from "@/components/ProjectAccordion";
 import { PROJECTS } from "@/lib/projects";
 
+const PERSON_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Beau Lewis",
+  jobTitle: "Entrepreneur",
+  url: "https://beaulewis.org",
+  image: "https://beaulewis.org/photos/ogImage.jpg",
+  description:
+    "3X Startup founder. Emmy winner. 250+ million views. Builder of impossible creative visions.",
+  sameAs: ["https://www.linkedin.com/in/beaul/"],
+};
+
 const STUFF = [
   "VIRAL MEDIA AGENCY",
   "BROADWAY MUSICAL",
@@ -33,6 +45,10 @@ const PUBLICATIONS = [
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_JSON_LD) }}
+      />
       {/* HERO */}
       <section id="top" className="px-6 md:px-12 pt-32 md:pt-40 pb-8 md:pb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">

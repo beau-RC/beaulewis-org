@@ -18,10 +18,40 @@ const interDisplay = Inter_Tight({
   display: "swap",
 });
 
+const SITE_URL = "https://beaulewis.org";
+const SITE_TITLE = "Beau Lewis — Entrepreneur, Viral Media Champion";
+const SITE_DESCRIPTION =
+  "3X Startup founder. Emmy winner. 250+ million views. Builder of impossible creative visions.";
+
 export const metadata: Metadata = {
-  title: "Beau Lewis — Entrepreneur, Viral Media Champion",
-  description:
-    "3X Startup founder. Emmy winner. 250+ million views. Builder of impossible creative visions.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Beau Lewis",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: "/photos/ogImage.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Beau Lewis",
+      },
+    ],
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: ["/photos/ogImage.jpg"],
+  },
   icons: {
     icon: "/favicon.png",
   },
