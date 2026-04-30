@@ -12,7 +12,10 @@ const PERSON_JSON_LD = {
   image: "https://beaulewis.org/photos/ogImage.jpg",
   description:
     "3X Startup founder. Emmy winner. 250+ million views. Builder of impossible creative visions.",
-  sameAs: ["https://www.linkedin.com/in/beaul/"],
+  sameAs: [
+    "https://www.linkedin.com/in/beaul/",
+    "https://www.instagram.com/peeplittlebeau/",
+  ],
 };
 
 const STUFF = [
