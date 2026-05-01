@@ -19,9 +19,9 @@ const interDisplay = Inter_Tight({
 });
 
 const SITE_URL = "https://beaulewis.org";
-const SITE_TITLE = "Beau Lewis — Entrepreneur, Viral Media Champion";
+const SITE_TITLE = "Beau Lewis — Entrepreneur, Writer, Producer";
 const SITE_DESCRIPTION =
-  "3X Startup founder. Emmy winner. 250+ million views. Builder of impossible creative visions.";
+  "Entrepreneur, writer, and producer working to connect humans and tech. Twenty years across viral media, GoldieBlox, Rhyme Combinator, and Co-Founders the Musical.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

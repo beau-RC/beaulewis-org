@@ -11,17 +11,6 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "cofounders",
-    title: "CO-FOUNDERS THE MUSICAL",
-    role: "WRITER, PRODUCER",
-    info: [
-      "The musical from the Bay envisions a new format for live events for the digital generation, using never-before-seen technology in theater.",
-      "Co-Founders cemented its place in history in 2025, selling out its 40-show run at the American Conservatory Theater (A.C.T.), bound for Broadway.",
-    ],
-    image: "/photos/Playbill-CoFounders-crop.jpg",
-    imagePosition: "top",
-  },
-  {
     slug: "goldieblox",
     title: "GOLDIEBLOX",
     role: "Co-Founder",
@@ -53,7 +42,7 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "2020-election",
-    title: "Special Projects for Reid Hoffman",
+    title: "MEME2020",
     role: "PRODUCER",
     info: [
       "Persuaded voters in pivot counties away from Donald Trump contributing to Biden's victory in 2020 with the first ever at-scale mass tested meme persuasion campaign.",
