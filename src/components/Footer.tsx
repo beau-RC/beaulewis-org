@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 
-const SUBSTACK_URL = "#"; // TODO: replace with real Substack URL
+const SUBSTACK_URL = "https://beaumountainlewis.substack.com/";
 
 const LINKS: { label: string; href: string; external?: boolean }[] = [
   { label: "Substack", href: SUBSTACK_URL, external: true },

@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 import ProjectAccordion from "@/components/ProjectAccordion";
 import { PROJECTS } from "@/lib/projects";
 
-const SUBSTACK_URL = "#"; // TODO: replace with real Substack URL
+const SUBSTACK_URL = "https://beaumountainlewis.substack.com/";
 const AI_RAP_URL = "#"; // TODO: replace with real AI Rap Debates URL
 const COFOUNDERS_URL = "https://cofoundersthemusical.com";
 const APP_URL = "https://allpeoplepower.com";
